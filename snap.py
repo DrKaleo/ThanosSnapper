@@ -22,7 +22,7 @@ def snap(): # Deletes half of the files in the current working directory, chosen
         file_path = os.path.join(folder_path, file)
         try:
             os.remove(file_path)
-            print(f"dusted: {file_path}")
+            print(f"Dusted: {file_path}")
         except Exception as e:
             print(f"Failed to dust {file_path}: {e}")
             
